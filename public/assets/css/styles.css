@@ -1,0 +1,67 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.edit a{
+  font-size: 24px;
+  color: #999;
+}
+
+.nav-wrapper .fa-bars {
+  font-size: 25px;
+}
+
+.story-text {
+  min-height: 120px;
+}
+
+.card-image .fa-pencil-alt {
+  position: relative;
+  left: 32%;
+}
+
+#delete-form {
+  display: inline;
+}
+
+.table-buttons {
+  text-align: right;
+}
+
+.dash-status {
+  text-transform: capitalize;
+}
+
+.comments {
+  text-align: right;
+}
+
+.comments h6 {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.comments .chip {
+  height: 22px;
+  font-size: 10px;
+  line-height: 22px;
+}
+
+.comments .chip>img {
+  height: 22px;
+  width: 22px;
+}
+
+.comments .chip small {
+  font-size: 100%;
+}
+
+footer {
+  margin-top: 20px;
+}
